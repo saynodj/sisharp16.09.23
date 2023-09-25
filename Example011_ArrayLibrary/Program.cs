@@ -42,11 +42,11 @@ int IndexOf(int[] collection, int find)
 int[] array = new int[10];
 
 FillArray(array);
-array[4] = 4; // Принудительная 4 с индексом [4], что показать только первое вхождение
-array[6] = 4; // Принудительная 4 с индексом [6], что показать только первое вхождение
+array[4] = 4; // Принудительная 4 с индексом [4], чтобы показать только первое вхождение.
+array[6] = 4; // Принудительная 4 с индексом [6], чтобы показать только первое вхождение.
 
 PrintArray(array);
 Console.WriteLine();
 
-int pos = IndexOf(array, 444); 
+int pos = IndexOf(array, 4); 
 Console.WriteLine(pos);
