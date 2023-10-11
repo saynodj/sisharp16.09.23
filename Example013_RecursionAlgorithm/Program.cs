@@ -99,7 +99,7 @@ void PrintImage(int[,] image)
 
 //PrintImage(pic);
 
-
+// Вариант с закрашиванием 
 
 void FillImage(int row, int col)
 {
