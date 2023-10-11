@@ -1,4 +1,6 @@
-﻿string[,] table = new string[2, 5];
+﻿// Рекурсия и двумерные массивы (Лекция № 4)
+
+string[,] table = new string[2, 5];
 
 // String.Empty
 // table [0,0]  table [0,1]  table [0,2]  table [0,4]
